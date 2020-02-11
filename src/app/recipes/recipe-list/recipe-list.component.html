@@ -5,20 +5,7 @@
 </div>
 <div class="row">
   <div class="col-sm-12">
-    <div class="card d-flex flex-row" *ngFor="let recipe of recipes">
-      <div class="card-body">
-        <h4 class="card-title">{{ recipe.name }}</h4>
-        <p class="card-text">
-          {{ recipe.description }}
-        </p>
-      </div>
-      <img
-        class="card-img-top"
-        [src]="recipe.imagePath"
-        alt="Card image cap"
-        style="max-width: 100px;"
-      />
-    </div>
-    <app-recipe-item></app-recipe-item>
+    <app-recipe-item *ngFor="let recipeEl of recipes" [recipe]="recipeEl">
+    </app-recipe-item>
   </div>
 </div>
