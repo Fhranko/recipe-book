@@ -11,4 +11,9 @@ export class RecipeDetailComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  isOpen: boolean = false;
+  clickToogle() {
+    this.isOpen = !this.isOpen;
+  }
 }

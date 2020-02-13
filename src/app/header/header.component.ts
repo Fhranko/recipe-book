@@ -11,6 +11,11 @@ export class HeaderComponent implements OnInit {
     this.featureSelected.emit(feature);
   }
 
+  isOpen: boolean = false;
+  clickToogle() {
+    this.isOpen = !this.isOpen;
+  }
+
   constructor() {}
 
   ngOnInit() {}

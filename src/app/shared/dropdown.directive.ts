@@ -10,8 +10,17 @@ import {
   selector: "[appDropdown]"
 })
 export class DropdownDirective {
-  @HostBinding("class.show") isOpen = false;
-  @HostListener("click") toogleOpen() {
-    this.isOpen = !this.isOpen;
+  // This Directive is not working
+  constructor() {
+    console.log("Directiva cargada");
   }
+
+  // @HostBinding("class.show") isOpen = false;
+  // @HostListener("click") mensajeConsola() {
+  //   this.isOpen = !this.isOpen;
+  //   console.log("Click detectado");
+  // }
+  // @HostListener("click", ["$event.target"]) mensajeConsola() {
+  //   console.log("Click detectado");
+  // }
 }

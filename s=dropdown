@@ -1,0 +1,83 @@
+[33mcommit 6e880c0a97b38fa4c6809020126b008491d149f8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Wed Feb 12 23:36:47 2020 -0400
+
+    Toogle Menu not Working
+
+[33mcommit 0791eed07c011cc4cfc702f8fb82c60898b081e5[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Tue Feb 11 20:18:44 2020 -0400
+
+    Allowing the User to add Ingredients to the shopping list
+
+[33mcommit a8173213101f150a300ad7be3f2e798b65c0a101[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Tue Feb 11 19:56:11 2020 -0400
+
+    Passing data with Event and Property Binding
+
+[33mcommit e4428f551f15ef17ecfd196395eca8250842cf63[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Tue Feb 11 19:29:14 2020 -0400
+
+    Passing recipe data with property binding
+
+[33mcommit 51d4f8b6e9fdfacc07130b0fe2bdeea775e72cb6[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Tue Feb 11 16:23:52 2020 -0400
+
+    Adding Navitation with event binding
+
+[33mcommit 151976d1e577076532f5f5f964c8a07d3b15e1b0[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Mon Feb 10 10:16:33 2020 -0400
+
+    Wrap up
+
+[33mcommit 2a72c7adb3a90f604b60d86299834cb9dab7877f[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Mon Feb 10 06:45:25 2020 -0400
+
+    Ingredient component added
+
+[33mcommit ce4bee3dbc399297e48b2363a18dad99e10f52d9[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Mon Feb 10 06:37:45 2020 -0400
+
+    Display recipe details
+
+[33mcommit e3315cc1c3e4b8e3eeb13576d6a9092602f6fb66[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Fri Feb 7 17:58:40 2020 -0400
+
+    Adding content to recipes
+
+[33mcommit 3f90905ee0c5dc458aa7b972e4eba3b35bae4b60[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Thu Feb 6 19:50:52 2020 -0400
+
+    Recipe model added
+
+[33mcommit 01eb3e5bd1599437fff22c0756e2dbbd99d9555d[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Tue Feb 4 21:50:54 2020 -0400
+
+    Basic Layout
+
+[33mcommit 6bcf7b710a5203946a08c29dc6797923c1739624[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Tue Feb 4 21:33:26 2020 -0400
+
+    Components Created
+
+[33mcommit c85e84d854d2becef52d9be0b5cfaef5ce5dd4fc[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Tue Feb 4 21:16:26 2020 -0400
+
+    Base proyect
+
+[33mcommit a749798d8ed2acbf202007689f498c411e9ed0c8[m
+Author: franco <francohuanaco@gmail.com>
+Date:   Fri Jan 24 19:33:15 2020 -0400
+
+    initial commit

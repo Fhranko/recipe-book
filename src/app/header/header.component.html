@@ -14,17 +14,38 @@
           >
         </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
+      <!-- <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" role="button"
-            >Manage <span class="caret"></span
-          ></a>
+            >Manage <span class="caret"></span>
           <ul class="dropdown-menu">
             <li><a href="#">Save Data</a></li>
             <li><a href="#">Fetch Data</a></li>
           </ul>
+          </a>
         </li>
-      </ul>
+      </ul> -->
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenu1"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          (click)="clickToogle()"
+        >
+          Manage
+        </button>
+        <div
+          class="dropdown-menu"
+          [ngClass]="isOpen ? 'show' : 'false'"
+          aria-labelledby="dropdownMenu1"
+        >
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
